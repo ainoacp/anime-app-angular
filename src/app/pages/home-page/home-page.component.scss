@@ -1,0 +1,16 @@
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 5%; 
+}
+div{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+}
+h2{
+    font-family: monospace;
+    font-size: large;
+
+}
