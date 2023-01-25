@@ -1,0 +1,21 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  border-radius: 5%;
+}
+
+figcaption {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #A99FA8;
+  font-size: x-small;
+}/*# sourceMappingURL=gallery.component.css.map */

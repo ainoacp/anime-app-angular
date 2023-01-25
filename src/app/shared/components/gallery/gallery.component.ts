@@ -8,4 +8,5 @@ import { AnimeInterface } from 'src/app/shared/models/Anime.interface';
 })
 export class GalleryComponent {
   @Input() list?: AnimeInterface[];
+  @Input() title?: boolean;
 }

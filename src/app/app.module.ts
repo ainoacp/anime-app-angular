@@ -8,6 +8,8 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { HttpClientModule } from '@angular/common/http';
 import { GalleryComponent } from './shared/components/gallery/gallery.component';
+import { FormsModule } from '@angular/forms';
+import {SliderModule} from 'primeng/slider';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { GalleryComponent } from './shared/components/gallery/gallery.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    SliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

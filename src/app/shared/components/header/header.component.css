@@ -1,0 +1,32 @@
+section {
+  background-color: #4A3C49;
+  color: #EDF0F1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div {
+  display: flex;
+}
+
+h1 {
+  margin: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+}
+
+a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  color: #A99FA8;
+  padding: 10px;
+  margin: 10px;
+}
+
+a:hover {
+  color: #EDF0F1;
+}/*# sourceMappingURL=header.component.css.map */

@@ -1,1 +1,31 @@
-<p>animes-page works!</p>
+
+<section>
+    <div class="slider">
+        <div class="slider-years">
+            <p>{{years[0] + ' - ' + years[1]}}</p>
+            <p-slider [(ngModel)]="years" [min]="1907" [max]="2025"[range]="true"></p-slider>
+            <button (click)="filter(years)">Filtrar</button>
+        </div>
+        <div class="slider-score">
+            <p>score</p>
+            <p-slider ></p-slider>
+            <button >Filtrar</button>
+        </div>
+        <div class="slider-chapter"> 
+            <p>chapter</p>
+            <p-slider ></p-slider>
+            <button >Filtrar</button>
+        </div>
+    </div>
+    <div class="search">
+        <input type="text" [(ngModel)]="text">
+        <button (click)="search()">Buscar por título, personaje o elenco...</button>
+        <div class="cards">
+            <p>Populares</p>
+            <p *[ngIf]="" >Puntuación promedio</p>
+            <p *[ngIf]="">Fecha</p>
+            <p *[ngIf]="">Añadidos recientemente</p>
+            <app-gallery [list]="animes" [title]="true"></app-gallery>
+        </div>
+    </div>
+</section>
